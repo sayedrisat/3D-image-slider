@@ -1,0 +1,62 @@
+body{
+    overflow-y: hidden;
+    background: url(https://i.pinimg.com/1200x/a4/02/c7/a402c7234b7ff5b50c47f179343245a3.jpg);
+    filter: contrast(1.55);
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner .slider{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    top: 10%;
+    left: calc(50% - 100px);
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    animation: autoRun 20s linear infinite;
+    z-index: 2;
+}
+
+@keyframes autoRun {
+    from{
+        transform: perspective(1000px) rotateX(-16deg) rotateY(0deg)
+    }to{
+        transform: perspective(1000px) rotateX(-16deg) rotateY(360deg)
+    }
+}
+
+.banner .slider .item{
+    position: absolute;
+    inset: 0 0 0 0;
+    transform: 
+        rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+        translateZ(550px);
+}
+
+.banner .slider .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.banner .content .model{
+    background-image: url(Ben10-Aliens/ben10.png);
+    width: 100%;
+    height: 75vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-size: auto 130%;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.bonner .content{
+z-index: 1;
+}
