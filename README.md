@@ -8,20 +8,20 @@ A cinematic **Ben 10 3D image slider** made with pure **HTML and CSS**. This fro
 
 ## Preview
 
-![Ben 10 3D Slider Preview](3d-designs/3d-slider-effect/Ben10-Aliens/ben-bg.png)
+![Ben 10 3D Slider Preview](assets/preview.png)
 
 ## Live Demo
+
+View the live project:
+
+```text
+https://sayedrisat.github.io/3D-image-slider/3d-designs/3d-slider-effect/
+```
 
 Open the project locally:
 
 ```bash
 3d-designs/3d-slider-effect/index.html
-```
-
-After enabling GitHub Pages, the project can be viewed here:
-
-```text
-https://sayedrisat.github.io/3D-image-slider/3d-designs/3d-slider-effect/
 ```
 
 ## Features
@@ -46,6 +46,8 @@ https://sayedrisat.github.io/3D-image-slider/3d-designs/3d-slider-effect/
 ```text
 3D-image-slider/
 +-- README.md
++-- assets/
+    +-- preview.png
 +-- 3d-designs/
     +-- 3d-slider-effect/
         +-- index.html
