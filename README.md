@@ -10,6 +10,10 @@ A cinematic **Ben 10 3D image slider** made with pure **HTML and CSS**. This fro
 
 ![Ben 10 3D Slider Preview](assets/preview.png)
 
+## Video Demo
+
+[Watch the 3D image slider demo video](assets/demo.mp4)
+
 ## Live Demo
 
 View the live project:
@@ -52,6 +56,7 @@ index.html
     +-- ben-bg.png
     +-- ben10.png
 +-- assets/
+    +-- demo.mp4
     +-- preview.png
 ```
 
