@@ -15,13 +15,13 @@ A cinematic **Ben 10 3D image slider** made with pure **HTML and CSS**. This fro
 View the live project:
 
 ```text
-https://sayedrisat.github.io/3D-image-slider/3d-designs/3d-slider-effect/
+https://sayedrisat.github.io/3D-image-slider/
 ```
 
 Open the project locally:
 
 ```bash
-3d-designs/3d-slider-effect/index.html
+index.html
 ```
 
 ## Features
@@ -46,21 +46,19 @@ Open the project locally:
 ```text
 3D-image-slider/
 +-- README.md
++-- index.html
++-- style.css
++-- Ben10-Aliens/
+    +-- ben-bg.png
+    +-- ben10.png
 +-- assets/
     +-- preview.png
-+-- 3d-designs/
-    +-- 3d-slider-effect/
-        +-- index.html
-        +-- style.css
-        +-- Ben10-Aliens/
-            +-- ben-bg.png
-            +-- ben10.png
 ```
 
 ## How To Run
 
 1. Clone the repository.
-2. Open `3d-designs/3d-slider-effect/index.html` in your browser.
+2. Open `index.html` in your browser.
 3. Enjoy the rotating Ben 10 3D image slider.
 
 ## SEO Keywords
